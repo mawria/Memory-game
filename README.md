@@ -1,4 +1,4 @@
-# El Juego de las Brujitas
+# El Juego de las Brujitas 🧙🏽‍♀️🎃
 
 **El Juego de las Brujitas** is a simple card-matching game. The goal is to find and match all pairs of adorable witch-themed cards.
 
