@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>EL JUEGO DE LAS BRUJITAS</h1>
+    <p>En este juego, tu misión es encontrar todas las parejas de brujitas mágicas. 
+        <br>Haz clic en las cartas para darles la vuelta y ver qué brujita está escondida. Si encuentras dos brujitas iguales, ¡ganas un punto!
+        <br>¿Listo para descubrir a todas las brujitas? <br>¡Diviértete y buena suerte!</p>
+    <div id="cards-container"></div>
+    <p>Puntuación: <span id="score">0</span></p>
+    <div class="actions">
+        <button onclick="restart()">Reiniciar</button>
+    </div>
+
+    <audio id="background-music" src="./audio/pumpkin-pie-holiday-170985.mp3" loop autoplay></audio>
+
+    <div class="music-controls">
+        <button onclick="playMusic()">▶</button>
+        <button onclick="pauseMusic()">⏸</button>
+    </div>
+
+    <div id="win-message" style="display: none;">
+        <h2>¡GANASTE!</h2>
+        <p>¡Felicidades! Has encontrado todas las parejas.</p>
+        <button onclick="playAgain()">Jugar de nuevo</button>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
