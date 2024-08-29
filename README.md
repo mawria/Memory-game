@@ -1,36 +1,23 @@
-# Memory game 🧠
+# El Juego de las Brujitas
 
-- Repository: `memory-game`
-- Type of Challenge: `Learning Challenge`
-- Duration: `Remainder of the week`
-- Deployment strategy: `Github pages` or `Netlify`
-- Team challenge : `solo`
+**El Juego de las Brujitas** is a simple card-matching game. The goal is to find and match all pairs of adorable witch-themed cards.
 
-## Learning Objectives
-- Change things in the DOM (Aka canvas = cheating)
-- Array manipulation
+## Features
 
-## The Mission
-We want to recreate the game `memory`. It is a game where  you have a bunch of cards. Each card contains an image. Of each image there are exactly two cards. The cards are placed in a random order. You get to turn them around. If you turned around two cards they either turn back, so you can't see their image if they did not match. If they did match they stay image face visible.
+- **Cute witch-themed cards**
+- **Playful background music**
+- **Celebratory win message**
 
-### 🌱 Must-have features
-- Clicking cards turns them around
-- Randomly position the cards
-- Readme, but that shouldn't even have to be said
-- Explanation on the page itself
+## Technologies
 
-### 🌼 Nice-to-have features
-- Make it playable by keyboard
-- Let a user define custom image urls
-- Make it pleasing to look at
-- Multiplayer (local)
+- HTML5
+- CSS3
+- JavaScript
 
-### Tips (You might want to only read this if you are stuck)
+## How to Play
 
-Here is a good way to split up the work. You might want to try to split it up even further:
+Flip the cards to find matching pairs. Match all pairs to win!
 
-- Have a bunch of square images (hard code their order, use html)
-- Make them turn on click
-- Make their order random using javascript
-- Turn them back around if you clicked two
-- Then implement the logic to only turn back if they don't match
+---
+
+This project was created as part of a web development bootcamp.
