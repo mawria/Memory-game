@@ -151,6 +151,11 @@ button {
     background-color: #e6683c;
 }
 
+footer p {
+    margin:10px; /* Remove default margins */
+    font-size: 14px; /* Set a reasonable font size */
+}
+
 
 @media (max-width: 500px) {
     #cards-container {
