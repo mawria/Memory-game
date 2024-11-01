@@ -150,3 +150,38 @@ button {
 #win-message button:hover {
     background-color: #e6683c;
 }
+
+
+@media (max-width: 500px) {
+    #cards-container {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 10px;
+    }
+
+    .card {
+        width: 20vw; 
+        height: 20vw;
+    }
+
+    h1 {
+        font-size: 24px; 
+    }
+
+    p {
+        font-size: 16px;  /* Adjust margins */
+    }
+
+    button {
+        padding: 8px 12px;
+        font-size: 16px;
+    }
+
+    #win-message {
+        padding: 15px 20px; 
+        font-size: 1.2rem; 
+    }
+
+    #win-message button {
+        padding: 8px 16px;
+    }
+}
